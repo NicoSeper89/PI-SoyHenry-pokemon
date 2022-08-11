@@ -1,0 +1,19 @@
+.card {
+    display: inline-block;
+    background-color: rgba(207, 207, 207, 0.747);
+    border-radius: 15% / 20%;
+    height: 40em;
+    width: 90%;
+    margin: 2em;
+}
+.card img {
+    width: 400px
+}
+
+.card div { display: inline-block;
+    padding: 5%;
+    margin: 6%;
+    color: white;
+    border-radius: 6% / 9%;
+    background-color: rgba(228, 165, 165, 0.678)
+}

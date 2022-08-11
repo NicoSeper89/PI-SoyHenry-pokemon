@@ -1,0 +1,10 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 1% 0%;
+}
+
+.cards a{
+    text-decoration: none;
+}

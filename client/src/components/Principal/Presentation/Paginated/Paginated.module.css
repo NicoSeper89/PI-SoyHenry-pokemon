@@ -1,0 +1,23 @@
+.paginated{
+    display: flex
+}
+
+.side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 2em;
+    margin: 5.5em 1em 0em 2em;
+    padding: 1em;
+    width: 280px;
+    background:  linear-gradient(45deg, rgba(168,168,168,1) 0%, rgba(201,201,201,1) 20%, rgba(235,235,235,1) 36%, rgba(240,240,240,1) 44%, rgba(255,255,255,1) 50%, rgba(240,240,240,1) 56%, rgba(235,235,235,1) 64%, rgba(201,201,201,1) 78%, rgba(168,168,168,1) 100%);
+    box-shadow: rgb(100, 100, 100) 0.3em 0.3em 0.2em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0%;
+    width: 100%;
+}

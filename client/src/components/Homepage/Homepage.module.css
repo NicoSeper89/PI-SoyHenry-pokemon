@@ -1,0 +1,46 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+    position: relative;
+    background-image: url("https://images3.alphacoders.com/206/206177.jpg");
+    background-repeat: no-repeat;
+    background-size:130%;
+    height: 700px;
+    max-height: 720px;
+}
+
+.logo {
+    left: 9%;
+    position: relative;
+    width: 35%; 
+}
+
+
+
+.homepage a {
+    position: relative;
+    left: 9%;
+    top: 2%;
+    width: 35%;
+}
+
+
+
+
+.homepage button {
+    background-color: #fecb04;
+    box-shadow: inset #c69f08 -0.22em 0.22em, #273a68 -0.2em 0.2em;
+    padding: 0.4em;
+    color: #3364b5;
+    text-shadow: #c69f08 -0.07em 0.07em;
+    font-size: 135%;
+    font-weight: bold;
+    border: #3364b5 solid 0.23em;
+}
+
+.homepage button:hover {
+    outline: none;
+    transform: scale(1.2);
+}

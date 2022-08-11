@@ -1,0 +1,12 @@
+.formSearch {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    position: relative;
+}
+
+.inputSearch {
+    border: black solid 1px;
+    border-radius: 1em;
+    padding: 0.6em;    
+}

@@ -1,0 +1,67 @@
+.conteiner {
+      display: flex;
+      min-width: 900px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 2em;
+}
+
+.form {
+      color: white;
+      position: relative;
+      font-family: unset;
+      display: flex;
+      background: linear-gradient(to right, hsla(0, 78%, 64%, 0.7) 0%, hsla(314, 100%, 61%, 0.7) 100%);
+      box-shadow: grey 10px 10px 10px;
+      padding: 2em;
+      border-radius: 6% / 10%;
+      width: 90%;
+      justify-content: space-around;
+}
+
+.form>input {
+      position: absolute;
+      bottom: -4%;
+      right: 10%;
+      padding: 0.3em;
+      background: linear-gradient(to bottom, hsla(200, 30%, 96%, 1) 0%, hsla(204, 24%, 88%, 1) 50%, hsla(202, 22%, 76%, 1) 82%, hsla(204, 68%, 93%, 1) 100%);
+      border-radius: 5% / 9%;
+      box-shadow: grey 3px 5px 6px;
+      font-size: 1.5em;
+      color: rgb(128, 128, 128);
+}
+
+
+.infoPrincipal {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 50%;
+      background-color: rgba(163, 76, 76, 0);
+}
+
+.infoPrincipal>label {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 3em;
+}
+
+.infoPrincipal input {
+      border-style: none;
+      padding: 0.1em;
+      padding-left: 0.3em;
+}
+
+.infoPrincipal>label>p {
+      text-align: left;
+      width: 6em;
+}
+
+.checkboxContainer {
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+      align-items: flex-start;
+}

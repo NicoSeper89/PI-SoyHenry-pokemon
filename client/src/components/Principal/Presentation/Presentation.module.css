@@ -1,0 +1,7 @@
+.presentation {
+    background: linear-gradient(135deg, rgba(19,19,19,1) 0%, rgba(36,36,36,1) 43%, rgba(48,48,48,1) 73%, rgba(77,77,77,1) 100%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 600px;
+    width: 100%;
+}

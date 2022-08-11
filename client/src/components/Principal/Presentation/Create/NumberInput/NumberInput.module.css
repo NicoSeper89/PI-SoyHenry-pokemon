@@ -1,0 +1,27 @@
+.msgError{
+    color: red
+}
+
+.incorrectData{
+    color: red;
+    border-color: red;
+    padding: 0.1em;
+    padding-left: 0.3em;
+    width: 6em;
+}
+
+.incorrectData:focus {
+    outline: red;
+    width: 6em;
+    
+}
+
+.correctData {
+    border-style: none;
+    padding: 0.1em;
+    padding-left: 0.3em;
+    width: 6em;
+}
+.correctData:focus {
+    outline: red;
+}

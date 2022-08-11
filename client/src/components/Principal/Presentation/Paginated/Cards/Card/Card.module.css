@@ -1,0 +1,256 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-style: solid;
+    width: 250px;
+    margin: 8% 0%;
+    padding: 1%;
+    color: #ffffff;
+    box-shadow: rgb(65, 65, 65) 0.5em 0.5em 0.2em;
+    background: linear-gradient(135deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+}
+
+.img{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 226px;
+    height: 228px;
+}
+
+.img img {
+    position: relative;
+    width: 170px;
+}
+
+.typeCircle {
+    position:absolute;
+    top: -2px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    z-index: 1;
+}
+
+
+/*---------normal  1---------*/
+
+.normal {
+    border-color: #edb1c1;
+    text-shadow: #edb1c1 0.1em 0.1em 0.3em;
+}
+.normal>div>div {
+    background: linear-gradient(135deg, #edb1c1 0%, #94717a 100%);
+}
+
+/*---------fighting  2---------*/
+
+.fighting {
+    border-color: #ef6039;
+    text-shadow: #ef6039 0.1em 0.1em 0.3em;
+}
+.fighting>div>div {
+    background:  linear-gradient(135deg, #ef6039 0%, #974026 100%);
+}
+
+/*---------flying  3---------*/
+
+.flying {
+    border-color: #93b2c8;
+    text-shadow: #93b2c8 0.1em 0.1em 0.3em;
+}
+ 
+.flying>div>div {
+    background:  linear-gradient(135deg, #93b2c8 0%, #4c667b 100%);
+}
+
+/*---------poison  4---------*/
+
+.poison {
+    border-color: #9A68D8;
+    text-shadow: #9A68D8 0.1em 0.1em 0.3em;
+}
+
+.poison>div>div {
+    background:  linear-gradient(135deg, #9A68D8 0%, #5D2D87 100%);
+}
+
+/*---------ground  5---------*/
+
+.ground {
+    border-color: #6C4720;
+    text-shadow: #6C4720 0.1em 0.1em 0.3em;
+}
+
+.ground>div>div {
+    background:  linear-gradient(135deg, #6C4720 0%, #A3712B 100%);
+}
+
+/*---------rock  6---------*/
+
+.rock {
+    border-color: #893E23;
+    text-shadow: #893E23 0.1em 0.1em 0.3em;
+}
+
+.rock>div>div {
+    background:  linear-gradient(135deg, #893E23 0%, #46180C 100%);
+}
+
+/*---------bug  7---------*/
+
+.bug {
+    border-color: #3D994F;
+    text-shadow: #3D994F 0.1em 0.1em 0.3em;
+}
+
+.bug>div>div {
+    background:  linear-gradient(135deg, #3D994F 0%, #1C4A26 100%);
+}
+
+/*---------ghost 8---------*/
+
+.ghost {
+    border-color: #8E6890;
+    text-shadow: #8E6890 0.1em 0.1em 0.3em;
+}
+
+.ghost>div>div {
+    background:  linear-gradient(135deg, #8E6890 0%, #32346A 100%);
+}
+
+/*---------steel  9---------*/
+
+.steel {
+    border-color: #40BE91;
+    text-shadow: #40BE91 0.1em 0.1em 0.3em;
+}
+
+.steel>div>div {
+    background:  linear-gradient(135deg, #40BE91 0%, #60746D 100%);
+}
+
+/*---------fire  10---------*/
+
+.fire {
+    border-color: #FD4D58;
+    text-shadow: #FD4D58 0.1em 0.1em 0.3em;
+}
+
+.fire>div>div {
+    background:  linear-gradient(135deg, #FD4D58 0%, #A32323 100%);
+}
+
+/*---------water  11---------*/
+
+.water {
+    border-color: #84A6FC;
+    text-shadow: #84A6FC 0.1em 0.1em 0.3em;
+}
+
+.water>div>div {
+    background:  linear-gradient(135deg, #84A6FC 0%, #144EE4 100%);
+}
+
+/*---------grass  12---------*/
+
+.grass {
+    border-color: #27C952;
+    text-shadow: #27C952 0.1em 0.1em 0.3em;
+}
+
+.grass>div>div {
+    background:  linear-gradient(135deg, #27C952 0%, #117937 100%);
+}
+
+/*---------electric  13---------*/
+
+.electric {
+    border-color: #F8FB73;
+    text-shadow: #F8FB73 0.1em 0.1em 0.3em;
+}
+
+.electric>div>div {
+    background:  linear-gradient(135deg, #F8FB73 0%, #E0E428 100%);
+}
+
+/*---------psychic 14---------*/
+
+.psychic {
+    border-color: #F71B8C;
+    text-shadow: #F71B8C 0.1em 0.1em 0.3em;
+}
+
+.psychic>div>div {
+    background:  linear-gradient(135deg, #F71B8C 0%, #A22A68 100%);
+}
+
+/*---------ice 15---------*/
+
+.ice {
+    border-color: #DDEEF9;
+    text-shadow: #DDEEF9 0.1em 0.1em 0.3em;
+}
+
+.ice>div>div {
+    background:  linear-gradient(135deg, #DDEEF9 0%, #86D1F2 100%);
+}
+
+/*---------dragon 16---------*/
+
+.dragon {
+    border-color: #5FCBD7;
+    text-shadow: #5FCBD7 0.1em 0.1em 0.3em;
+}
+
+.dragon>div>div {
+    background:  linear-gradient(135deg, #5FCBD7 0%, #418A93 100%);
+}
+
+/*---------dark 17---------*/
+
+.dark {
+    border-color: #5A5A78;
+    text-shadow: #5A5A78 0.1em 0.1em 0.3em;
+}
+
+.dark>div>div {
+    background:  linear-gradient(135deg, #5A5A78 0%, #050509 100%);
+}
+
+/*---------fairy 18---------*/
+
+.fairy {
+    border-color: #AD0F4B;
+    text-shadow: #AD0F4B 0.1em 0.1em 0.3em;
+}
+
+.fairy>div>div {
+    background:  linear-gradient(135deg, #AD0F4B 0%, #8D1F43 100%);
+}
+
+/*---------unknown 18---------*/
+
+.unknown {
+    border-color: #cacaca;
+    text-shadow: #cacaca 0.1em 0.1em 0.3em;
+}
+
+.unknown>div>div {
+    background:  linear-gradient(135deg, #cacaca 0%, #333333 100%);
+}
+
+/*---------shadow 20---------*/
+
+.shadow {
+    border-color: #2e115c;
+    text-shadow: #2e115c 0.1em 0.1em 0.3em;
+}
+
+.shadow>div>div {
+    background:  linear-gradient(135deg, #2e115c 0%, #2c2930 100%);
+}
